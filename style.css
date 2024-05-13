@@ -191,6 +191,7 @@ section {
 
 .section__text p {
   font-weight: 600;
+  
 }
 
 .section__text__p1 {
@@ -339,6 +340,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-top: 3rem;
 }
 
 .article-container {
@@ -374,10 +376,23 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
+  width: 100%;
   height: 90%;
 }
-
+.project-img-1{
+  border-radius: 2rem;
+  width: 100%;
+  height: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.project-img-2{
+  border-radius: 2rem;
+  width: 100%;
+  height: 100%;
+  margin-top: 1rem;
+  margin-bottom: 2.75rem;
+}
 .project-title {
   margin: 1rem;
   color: black;
@@ -394,7 +409,8 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 80vh;
+  margin-top: 50vh;
 }
 
 .contact-info-upper-container {
